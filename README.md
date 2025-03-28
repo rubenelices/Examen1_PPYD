@@ -18,13 +18,20 @@ Este proyecto simula un sistema concurrente en Python que representa la recepci�
 ## Estructura del Proyecto
 
 proyecto_imagenes_sat/
-├── main.py                 # Script principal que inicia la simulación
-├── generador.py            # Lógica de los satélites (productores)
-├── procesador.py           # Lógica de los analistas (consumidores)
-├── recursos.py             # Recursos compartidos: cola, semáforo, contador
-├── logger.py               # Función segura para registrar eventos en un archivo
-├── registro_imagenes.txt   # Archivo generado automáticamente (log de eventos)
-└── README.md               # Documentación del proyecto
+
+main.py                 # Script principal que inicia la simulación
+
+generador.py            # Lógica de los satélites (productores)
+
+procesador.py           # Lógica de los analistas (consumidores)
+
+recursos.py             # Recursos compartidos: cola, semáforo, contador
+
+logger.py               # Función segura para registrar eventos en un archivo
+
+registro_imagenes.txt   # Archivo generado automáticamente (log de eventos)
+
+README.md               # Documentación del proyecto
 
 ## ¿Cómo ejecutar?
 Desde el archivo main ejecuta el codigo.
